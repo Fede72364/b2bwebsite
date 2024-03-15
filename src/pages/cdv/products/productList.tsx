@@ -4,6 +4,7 @@ const severalResourcesImg = "/products/analytics.png";
 const severalResourcesText = () => (
     <div className="my-3">
         <ul>
+            <li>Instructores en linea.</li>
             <li>Automatizaciones.</li>
             <li>Guía para resolución de todo tipo de objeciones.</li>
             <li>Paquetes de Guiones.</li>
@@ -50,7 +51,7 @@ const hiringModels = {
 /********************* */
 
 
-const leadershipTitle = "Implementación de Cultura del Alto rendimiento"
+const leadershipTitle = "Implementa la Cultura del Alto rendimiento"
 const leadershipImg = "/products/cesar.png";
 const LeadershipText = () => (
     <>
@@ -75,12 +76,15 @@ const leadership = {
 /********************* */
 /********************* */
 
-const softwareTitle = "Herramientas Software de Masividad"
+const softwareTitle = "Presencia absoluta, mantente en el radar."
 const softwareImg = "/products/dragonChat.png";
 const SoftwareText = () => (
     <>
         <span className="my-3 d-block">
             <i>El dinero fuerte está en la masividad, por eso desarrollamos un software que respalda nuestro sistema de contacto masivo anti-bloqueos. Para que tus bases de datos sean exprimidas al 100% y no se escape ningún prospecto nunca más.</i>
+        </span>
+        <span className="my-3 d-block">
+            <i>El 80% de las ventas se cierran en el seguimiento y el 90% de los vendedores no hacen esto.</i>
         </span>
         <span className="mb-3 d-block">
             <i>Optimiza el seguimiento, aumenta el ciclo de vida de tus clientes y manten un contacto permanente con toda tu base de datos generando una relación a largo plazo (en el tiempo que te lleva escribir un solo mensaje).</i>

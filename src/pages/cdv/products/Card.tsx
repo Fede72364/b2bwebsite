@@ -40,7 +40,7 @@ const Card = ({title, img, description}: Props) => {
             {description()}
         </div>
 
-        <CtaBtn text="Hablemos!" handleClick={()=>{}} />
+        <CtaBtn text="Mas información" handleClick={()=>{}} />
     </Col>
     <Col className="hrCol" xs={12}>
         <hr />

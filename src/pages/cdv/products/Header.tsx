@@ -17,7 +17,7 @@ const Header = () => (
                 viewport={{ once: true }}
                 className={h2style}
             >
-                Productos & Servicios
+                Recursos adicionales
             </motion.h2>
         </Col>
     </Row>

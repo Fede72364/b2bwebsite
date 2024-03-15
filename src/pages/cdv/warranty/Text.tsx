@@ -9,7 +9,7 @@ const Text = () => (
             Solicita una asesoría gratuita con uno de nuestros instructores estrella, para que podamos evaluar el funcionamiento de tu metodología de ventas actual y cómo optimizarlo.
         </span>
         <span className={paragraphStyle}>
-            Nos aseguraremos de que nuestra metodología sea compatible con tu empresa y si podemos ayudarte a cumplir tu objetivo dentro las próximas 12 semanas, ¡entonces estás dentro! 
+            Nos aseguraremos de que nuestra metodología sea compatible con tu empresa y si podemos ayudarte a cumplir tu objetivo dentro los próximos 30 días, ¡entonces estás dentro! 
         </span>
 
             <button onClick={()=>{}}>

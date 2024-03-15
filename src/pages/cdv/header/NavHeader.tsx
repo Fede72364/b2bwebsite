@@ -34,7 +34,7 @@ const NavHeader = () => (
 
                 <Col className={colStyle}>
                     <h1 className='text-center'>
-                        La clave para tener éxito en tus estrategias de ventas B2B y B2C
+                        La clave para tener éxito en tus estrategias de ventas
                     </h1>
                 </Col>
 

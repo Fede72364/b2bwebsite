@@ -1,18 +1,21 @@
 // Styles
-const paragraphStyle = 'd-block mb-3'
+const paragraphStyle = 'd-block mb-4'
 
 const Text = () => (
     <>
-        <h2 className="mb-3">Es apto para mi empresa?</h2>
+        <h2 className="mb-4">Es apto para mi empresa?</h2>
+
         <span className={paragraphStyle}>
-            No podemos prometer resultados a todo el mundo. El campamento de ventas, es para cualquiera, -pero no cualquiera, es para el campamento de ventas-
+            Solicita una asesoría gratuita con uno de nuestros instructores estrella, para que podamos evaluar el funcionamiento de tu metodología de ventas actual y cómo optimizarlo.
         </span>
         <span className={paragraphStyle}>
-            Si podemos cumplir tu objetivo concreto en las próximas 12 semanas, ¡entonces estás dentro!
+            Nos aseguraremos de que nuestra metodología sea compatible con tu empresa y si podemos ayudarte a cumplir tu objetivo dentro las próximas 12 semanas, ¡entonces estás dentro! 
         </span>
-        <span className={paragraphStyle}>
-            Por eso te invitamos a que de forma totalmente personalizada, uno de nuestros instructores estrella, se ocupe (a costo $0) de evaluar tu metodología de ventas actual, tu producto o servicio, y sobre todo, la dimensión exacta de tus expectativas.
-        </span>
+
+            <button onClick={()=>{}}>
+                Consulta con un experto
+            </button>
+        
     </>
 )
 

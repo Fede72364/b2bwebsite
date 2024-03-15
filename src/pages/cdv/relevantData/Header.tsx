@@ -17,7 +17,7 @@ const Header = () => (
             viewport={{ once: true }}
             className={h2style}
         >
-            Datos relevantes
+            Nuestro diferencial
         </motion.h2>
     </Col>
 )

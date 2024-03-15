@@ -4,7 +4,6 @@ import useMediaQuery from '@mui/material/useMediaQuery';
 import { Container, Row, Col } from 'react-bootstrap';
 // Components
 import Logo from '../../../components/Logo';
-import Text from './Text';
 // Animation
 import { motion } from 'framer-motion';
 import { fadeIn } from '../../../components/variants';
@@ -21,6 +20,7 @@ const logoMobileVariant = {
 const sectionStyle = "position-relative z-2"
 const txtStyle = "d-flex flex-column justify-content-center text-center text-lg-start"
 const logoStyle = "purposeLogo"
+const h2spotlightSt = { color: "#2F3C87" }
 
 const Purpose = () => {
     const isMobile = useMediaQuery('(max-width:991px)');
@@ -37,9 +37,13 @@ const Purpose = () => {
                 >
                     <Container>
                         <Row>
+
                             <Col xs={12} lg={8} className={txtStyle}>
-                                <Text />
+                                <h2>
+                                    Descubre un Sistema Único, diseñado específicamente para convertir <i>Emprendedores "Amateurs"</i> en <b style={h2spotlightSt}>Empresarios de 6 Cifras.</b>
+                                </h2>
                             </Col>
+
                             <Col xs={6} sm={3} lg={4} className={logoStyle}>
                                 {isMobile ?
                                     <motion.div variants={logoMobileVariant} viewport={{ once: true }}>
@@ -49,6 +53,7 @@ const Purpose = () => {
                                     <Logo color="blue" />
                                 }
                             </Col>
+                            
                         </Row>
                     </Container>
                 </motion.div>

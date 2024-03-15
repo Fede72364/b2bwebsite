@@ -1,20 +1,24 @@
 
-const niceAndEasyTitle = "Rápido, simple, fácil."
-const niceAndEasyImg = "/products/analytics.png";
-const NiceAndEasyText = () => (
-    <div>
-        <span className="mb-3 d-block">Entendimos que el vendedor promedio no suele tener estudios avanzados, por eso procuramos hacer algo tan simple que funcione con un jovencito de secundaria (Como nuestro director de ventas al comenzar).</span>
-        <span className="mb-3 d-block">Las estructuras sofisticadas, los textos complejos, las fórmulas matemáticas...Los vendedores NO LAS ENTIENDEN, Y POR ESO NO LAS RECUERDAN, NI MUCHO MENOS APLICAN.</span>
-        <span className="mb-3 d-block">Por eso, nuestro producto es para cualquier vendedor, no es requisito ser "Director ejecutivo del área de Finanzas Internacionales con un IQ de 182" de la Harvard University, no.</span>
-        <span className="mb-3 d-block">Enseñamos a vender en un idioma que se entienda, entretenga, emocione, se recuerde, que motive, y sobre todo que lo SE APLIQUE. </span>
-        <span>Ya no dejes tus facturación librada al azar, apaga las velas a tus santos y deja que nosotros nos hagamos cargo de la situación. Llegó la hora de que todo potencial cliente deje de ser potencial y cierre el trato de una buena vez. </span>
+const severalResourcesTitle = "Brindamos un amplio abanico de recursos:"
+const severalResourcesImg = "/products/analytics.png";
+const severalResourcesText = () => (
+    <div className="my-3">
+        <ul>
+            <li>Automatizaciones.</li>
+            <li>Guía para resolución de todo tipo de objeciones.</li>
+            <li>Paquetes de Guiones.</li>
+            <li>Clases ultra compactas y concretas.</li>
+            <li>Instructores en línea.</li>
+            <li>Practica entre compañeros para no dañar prospectos reales.</li>
+        </ul>
+        <span>Y más...</span>
     </div>
 )
 
-const niceAndEasy = {
-    title: niceAndEasyTitle,
-    img: niceAndEasyImg,
-    description: NiceAndEasyText,
+const severalResources = {
+    title: severalResourcesTitle,
+    img: severalResourcesImg,
+    description: severalResourcesText,
 }
 
 /********************* */
@@ -22,40 +26,43 @@ const niceAndEasy = {
 
 
 
-const hiringMTitle = "Apertura a nuevos modelos de contratación"
-const hiringImg = "/products/people.svg"; // free commercial license: https://www.reshot.com/free-vector-illustrations/item/business-people-with-charts-Q4APUFRTWE/
-const HiringMText = () => (
-    
-    <span className="mb-3">
-        <i>Formar parte de nuestra comunidad de expertos te dará la posibilidad de "independizarte" de tus vendedores y poder generar competitividad gracias a nuestro sistema compensatorio que incentiva la rotación constante y promueve la meritocracia del equipo al 100%. Olvídate de sueldos fijos, indemnizaciones o vacaciones pagas. Los vendedores de la nueva era comprenden que las posibilidades de crecimiento son exclusivamente su responsabilidad.</i>
-    </span>
+const hiringModelTitle = "Apertura a nuevos modelos de contratación"
+const hiringModelImg = "/products/people.svg"; // free commercial license: https://www.reshot.com/free-vector-illustrations/item/business-people-with-charts-Q4APUFRTWE/
+const HiringModelText = () => (
+    <>
+        <span className="my-3 d-block">
+            <i>Nuestros clientes aprendieron un sistema de compensación que incentiva la rotación como un medio de fomentar la sana competencia y la meritocracia dentro de cada equipo de ventas.</i>
+        </span>
+
+        <span className="mb-3 d-block">
+            <i>Por esto, ya no tienen la necesidad de contratar a tiempo completo, pagar sueldos fijos, indemnizaciones o vacaciones. Depender de unos pocos vendedores por falta de tiempo para capacitar nuevo personal, dejó de ser una opción para ellos.</i>
+        </span>
+    </>
 )
 
 const hiringModels = {
-    title: hiringMTitle,
-    img: hiringImg,
-    description: HiringMText,
+    title: hiringModelTitle,
+    img: hiringModelImg,
+    description: HiringModelText,
 }
 
 /********************* */
 /********************* */
 
 
-const leadershipTitle = "Implementación de cultura del alto rendimiento"
-const leadershipImg = "/products/cesar.png"; 
+const leadershipTitle = "Implementación de Cultura del Alto rendimiento"
+const leadershipImg = "/products/cesar.png";
 const LeadershipText = () => (
     <>
-    <span className="mb-3 d-block">
-        <i>Los mentores son elegidos por resultados reales en el mercado y 100% verificables como requisito excluyente.</i>
-    </span>
-    <span className="mb-3 d-block">
-        <i>De este modo, hemos construido -no solo un programa- sino también el total de nuestra empresa entorno a una cultura de responsabilidad total, máxima productividad y altísimo rendimiento.</i>
-    </span>
-    <span className="mb-3 d-block">
-        <i>Comprendimos que la venta es un juego de técnica, estrategia y mentalidad, razón por la que no dejamos nada librado al azar y
-        abarcamos el rendimiento de un vendedor en su totalidad.</i>
-    </span>
-    
+        <span className="my-3 d-block">
+            <i>Nuestros instructores son seleccionados en función de resultados reales en el mercado y 100% verificables (como requisito excluyente).</i>
+        </span>
+        <span className="mb-3 d-block">
+            <i>Hemos construido el total de nuestra empresa entorno a la responsabilidad total, la máxima productividad y un altísimo rendimiento.</i>
+        </span>
+        <span className="mb-3 d-block">
+            <i>Comprendimos que la venta es un juego de técnica, estrategia y mentalidad, razón por la que no dejamos nada librado al azar y abarcamos el desarrollo de un vendedor en su totalidad.</i>
+        </span>
     </>
 )
 
@@ -68,14 +75,20 @@ const leadership = {
 /********************* */
 /********************* */
 
-const softwareTitle = "Herramientas de masividad"
+const softwareTitle = "Herramientas Software de Masividad"
 const softwareImg = "/products/dragonChat.png";
 const SoftwareText = () => (
     <>
-        <span className="mb-3"><i>El dinero importante está en la masividad, por eso desarrollamos un software que respalda nuestro sistema de contacto masivo anti-bloqueos. Para que tus bases de datos sean exprimidas al 100%.</i>
+        <span className="my-3 d-block">
+            <i>El dinero fuerte está en la masividad, por eso desarrollamos un software que respalda nuestro sistema de contacto masivo anti-bloqueos. Para que tus bases de datos sean exprimidas al 100% y no se escape ningún prospecto nunca más.</i>
         </span>
-        <span><i> Optimiza tus seguimientos, aumenta el ciclo de vida de tus clientes y mantén el contacto permanente con toda tu base de datos (en el tiempo que te lleva escribir un solo mensaje).</i>
+        <span className="mb-3 d-block">
+            <i>Optimiza el seguimiento, aumenta el ciclo de vida de tus clientes y manten un contacto permanente con toda tu base de datos generando una relación a largo plazo (en el tiempo que te lleva escribir un solo mensaje).</i>
         </span>
+        <span className="mb-3 d-block" style={{ color: "#2F3C87" }}>
+            <i>Si solicitas un presupuesto sin obligación de compra hoy, podrás probar esta poderosa herramienta de forma gratuita.</i>
+        </span>
+
     </>
 )
 
@@ -88,5 +101,5 @@ const software = {
 /********************* */
 /********************* */
 
-const products = [ niceAndEasy, hiringModels, leadership, software ]
+const products = [severalResources, hiringModels, leadership, software]
 export default products;

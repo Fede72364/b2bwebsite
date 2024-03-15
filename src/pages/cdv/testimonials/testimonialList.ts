@@ -10,7 +10,7 @@ const testimonialOne = new Testimonial_T(
     // "https://www.youtube.com/embed/XeJbPQgnenM?si=utRdtGhLoDAwv-Ka"
   ])
 const testimonialTwo = new Testimonial_T(
-  'Afiliado de Hotmark',
+  'Afiliado de Hotmart',
   [
     "/testimonials/Afiliado_de_Hotmark/1.png",
     "/testimonials/Afiliado_de_Hotmark/2.png",

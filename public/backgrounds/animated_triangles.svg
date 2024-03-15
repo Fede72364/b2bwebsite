@@ -11,7 +11,7 @@
                 }
 
                 .triangle-float1 {
-                    animation: float1 18s infinite;
+                    animation: float1 15s infinite;
                     animation-timing-function: linear;
                 }
 
@@ -22,7 +22,7 @@
                 }
 
                 .triangle-float2 {
-                    animation: float2 14s infinite;
+                    animation: float2 12s infinite;
                 }
 
                 @keyframes float3 {
@@ -32,6 +32,6 @@
                 }
 
                 .triangle-float3 {
-                    animation: float3 10s infinite;
+                    animation: float3 8s infinite;
                 }
             </style></defs></svg>

@@ -4,6 +4,7 @@ import Products from "./products/Products"
 import Purpose from "./purpose/Purpose"
 import Testimonials from "./testimonials/Testimonials"
 import Warranty from "./warranty/Warranty"
+import ModalTrigger from "./modal/ModalTrigger"
 
 const Cdv = () => (
   <main>
@@ -11,6 +12,7 @@ const Cdv = () => (
     <Detail />
     <RelevantData />
     <Products />
+    <ModalTrigger />
     <Warranty />
     <Testimonials />
   </main>

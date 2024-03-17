@@ -1,5 +1,5 @@
 
-const severalResourcesTitle = "Brindamos un amplio abanico de recursos:"
+const severalResourcesTitle = "Te equipamos con un amplio abanico de recursos:"
 const severalResourcesImg = "/products/analytics.png";
 const severalResourcesText = () => (
     <div className="my-3">

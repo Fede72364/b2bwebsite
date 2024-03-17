@@ -1,6 +1,6 @@
 const Text = () => (
     <>
-        <span className="text-center mb-4 h2">
+        <span className="text-center mb-4 h2" style={{textWrap: "balance"}}>
             ¿Tu Departamento de Ventas es inmune a todo tipo de <b>capacitaciones</b>?
         </span>
         <p>El  Campamento de Ventas es un programa completo, listo para implantar en cualquier empresa (ya sea que este funcionando o en sus inicios), cuyo objetivo es hacer que un vendedor ordinario, pueda generar resultados extraordinarios.<br />

@@ -1,27 +1,30 @@
 import Modal from "./Modal";
-import { useEffect, useRef } from "react";
+import { useEffect, useState, useRef } from "react";
 import { useInView } from "react-intersection-observer";
 
 const ModalTrigger = () => {
 
   const { ref, inView } = useInView();
-  const isOpen = useRef(false);
+  const [isOpen , setOpen] = useState(false);
   const animationOccured = useRef(false);
 
   // Update isOpenRef after rendering, triggered by inView change
   useEffect(() => {
 
     if (inView && !animationOccured.current) {
-      isOpen.current = true;
+      console.log("if statement triggered")
+      setOpen(true)
       animationOccured.current = true;
     }
 
   }, [inView]);
 
-  const handleClose = () => {
+  const handleClose = (_evt: object, reason: string) => {
 
-    if(isOpen.current){
-      isOpen.current = false;
+
+    
+    if( reason === 'backdropClick' || reason === 'escapeKeyDown' ){
+      setOpen(false)
     }
 
   };
@@ -32,7 +35,7 @@ const ModalTrigger = () => {
         Modal Trigger
       </div>
 
-      <Modal open={isOpen.current} handleClose={handleClose} />
+      <Modal open={isOpen} handleClose={handleClose} />
     </>
   );
 };

@@ -20,7 +20,7 @@ const Detail = () => (
       <Container >
         <Row className={rowStyle}>
 
-          <Col xs={12} className={txtStyle}>
+          <Col xs={12} xxl={9} className={txtStyle}>
             <Text />
           </Col>
 

@@ -11,7 +11,7 @@ const sectionStyle = {
     borderRadius: "20px",
     border: "1px solid rgb(84 90 106)",
 }
-const h2colStyle = 'd-flex flex-column align-items-center justify-content-center mb-4 mb-lg-0'
+const h2colStyle = 'd-flex flex-column align-items-center justify-content-center text-center mb-4 mb-lg-0'
 const hrStyle = 'd-block d-lg-none'
 const detailColStyle = 'd-flex flex-column align-items-center justify-content-end '
 

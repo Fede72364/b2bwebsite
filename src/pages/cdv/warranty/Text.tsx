@@ -3,7 +3,7 @@ const paragraphStyle = 'd-block mb-4'
 
 const Text = () => (
     <>
-        <h2 className="mb-4">Es apto para mi empresa?</h2>
+        <h2 className="mb-4 text-center">Es apto para mi empresa?</h2>
 
         <span className={paragraphStyle}>
             Solicita una asesoría gratuita con uno de nuestros instructores estrella, para que podamos evaluar el funcionamiento de tu metodología de ventas actual y cómo optimizarlo.

@@ -1,3 +1,5 @@
+// Components
+import ModalTrigger from "../../../components/modal/ModalTrigger"
 // BTS Grid
 import { Container, Row, Col } from "react-bootstrap"
 // Icons
@@ -16,6 +18,8 @@ const Footer = () => (
           <span>
             Todos los derechos reservados
           </span>
+          <ModalTrigger />
+
         </Col>
 
         <Col xs={12} lg={6} className={iconsCtStyle}>

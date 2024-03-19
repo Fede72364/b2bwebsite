@@ -4,37 +4,28 @@ import { useInView } from "react-intersection-observer";
 
 const ModalTrigger = () => {
 
-  const { ref, inView } = useInView();
+  const { ref, inView: isInView } = useInView();
   const [isOpen , setOpen] = useState(false);
   const animationOccured = useRef(false);
 
-  // Update isOpenRef after rendering, triggered by inView change
+  // Open the Modal when the trigger component is in viewport.
   useEffect(() => {
 
-    if (inView && !animationOccured.current) {
-      console.log("if statement triggered")
+    if (isInView && !animationOccured.current) {
       setOpen(true)
       animationOccured.current = true;
     }
 
-  }, [inView]);
+  }, [isInView]);
 
-  const handleClose = (_evt: object, reason: string) => {
-
-
-    
-    if( reason === 'backdropClick' || reason === 'escapeKeyDown' ){
+  const handleClose = (reason: string) => {
+    ( reason === 'backdropClick' || reason === 'escapeKeyDown' ) && 
       setOpen(false)
-    }
-
   };
 
   return (
     <>
-      <div ref={ref}>
-        Modal Trigger
-      </div>
-
+      <div ref={ref} id="modalTrigger"></div>
       <Modal open={isOpen} handleClose={handleClose} />
     </>
   );

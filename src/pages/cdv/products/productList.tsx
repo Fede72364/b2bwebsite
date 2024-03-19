@@ -1,6 +1,6 @@
 
 const severalResourcesTitle = "Te equipamos con un amplio abanico de recursos:"
-const severalResourcesImg = "/products/analytics.png";
+const severalResourcesImg = "/products/notebook.png";
 const severalResourcesText = () => (
     <div className="my-3">
         <ul>

@@ -1,24 +1,24 @@
-const freepikLink = "https://www.flaticon.com/free-icons/cancel";
-const svgBckgLink = "https://www.flaticon.com/free-icons/approved";
+const svgBackgroundsLink = "https://www.svgbackgrounds.com/set/free-svg-backgrounds-and-patterns/";
+const flaticonLink = "https://www.flaticon.com/free-icons/approved";
+
 
 const ExternalCredits = () => (
-    <div className="d-flex justify-content-center" id="externalCredits">
+    <span className="d-flex justify-content-center" id="externalCredits">
         <i>
-            Icon credits:
+            Design resources:
             <ul>
                 <li>
-                    <a className="px-1" href={freepikLink} target="_blank" rel="noopener noreferrer">
-                        freepik
+                    <a className="px-1" href={svgBackgroundsLink} target="_blank" rel="noopener noreferrer">
+                        svgbackgrounds
                     </a>
                 </li>
                 <li>
-                    <a href={svgBckgLink} target="_blank" rel="noopener noreferrer">
+                    <a href={flaticonLink} target="_blank" rel="noopener noreferrer">
                         flaticon
                     </a>
                 </li>
-
             </ul>
         </i>
-    </div>
+    </span>
 )
 export default ExternalCredits

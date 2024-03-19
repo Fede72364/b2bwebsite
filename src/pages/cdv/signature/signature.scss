@@ -24,14 +24,7 @@
     }
 }
 
-/***********************/
-/*Laptops and desktops*/
-@media only screen and (min-width: 992px) {
-    #signatureSection {
-        font-size: .8rem;
-        padding: 0rem 1rem 2px 1rem;
-    }
-}
+
 
 /***********************/
 /*Tablets and phones*/
@@ -47,9 +40,33 @@
             .row {
                 flex-direction: column;
 
+                #devCredits span{
+                    display: block;
+                }
+
                 #externalCredits {
                     justify-content: flex-end;
                 }
+            }
+        }
+    }
+}
+
+/***********************/
+/*Laptops and desktops*/
+@media only screen and (min-width: 992px) {
+    #signatureSection {
+        font-size: .8rem;
+        padding: 0rem 1rem 2px 1rem;
+
+        #devCredits span{
+            &:first-child{
+                margin-right: 10px;
+
+                &::after {
+                    content: "-";
+                    margin-left: 0.5em;
+                  }
             }
         }
     }

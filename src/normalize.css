@@ -22,21 +22,24 @@ main {
 
 h1 {
   margin-bottom: 0 !important;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
 }
 
-h2,
-h3 {
-  font-size: calc(1.725rem + .9vw);
-  font-weight: normal;
-}
-
-h1,
 h2,
 .h2,
 h3 {
-  font-family: 'Montserrat', sans-serif;
-  margin-bottom: 0;
+  font-size: calc(1.725rem + .9vw);
+  margin-bottom: 0 !important;
+
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
 }
+
 
 section {
   padding: 6rem 0px;

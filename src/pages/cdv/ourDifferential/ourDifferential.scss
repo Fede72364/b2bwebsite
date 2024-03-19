@@ -1,6 +1,6 @@
 @import '../sharedStyles.scss';
 
-#relevantData {
+#ourDifferential {
     .h2col {
 
         h2 {
@@ -12,24 +12,10 @@
             @extend .blueBackg_base;
         }
     }
-
-    .backgroundText {
-        position: absolute;
-        top: 25%;
-        left: 10%;
-        text-align: left;
-        color: rgba(0, 0, 0, 0.04);
-        font-size: 8rem;
-        font-family: 'Montserrat', sans-serif;
-        font-weight: 800;
-        z-index: 1;
-        overflow: hidden;
-        text-wrap: nowrap;
-    }
 }
 
 @media only screen and (min-width: 992px) {
-    #relevantData {
+    #ourDifferential {
         position: relative;
         padding: 6rem 0px 1rem 0px;
 
@@ -48,7 +34,7 @@
 }
 
 @media only screen and (max-width: 991px) {
-    #relevantData {
+    #ourDifferential {
         padding-top: 4rem;
         padding-bottom: 0;
 

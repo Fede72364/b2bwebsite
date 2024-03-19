@@ -1,5 +1,5 @@
 import Detail from "./detail/Detail"
-import RelevantData from "./relevantData/RelevantData"
+import RelevantData from "./ourDifferential/OurDifferential"
 import Products from "./products/Products"
 import Purpose from "./purpose/Purpose"
 import Testimonials from "./testimonials/Testimonials"

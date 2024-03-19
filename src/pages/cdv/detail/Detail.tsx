@@ -7,7 +7,7 @@ import Text from './Text';
 // Styling
 const glassmorphism = {
   background: 'rgba(74, 144, 226, 0)',
-  backdropFilter: 'blur(4px)',
+  backdropFilter: 'blur(1px)',
   border: '1px solid rgba(255, 255, 255, 0.18)',
 };
 const rowStyle = 'd-flex justify-content-center gap-lg-4';

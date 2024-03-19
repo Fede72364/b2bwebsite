@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  font-size: 1.15rem;
+  font-size: 17px!important;
   line-height: 1.7;
   background-color: white;
   position: relative;
@@ -18,11 +18,13 @@ body {
 
 main {
   font-family: 'Rubik', sans-serif;
+  position: relative;
+  z-index: 2;
 }
 
 h1 {
   margin-bottom: 0 !important;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Fira Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
@@ -31,21 +33,14 @@ h1 {
 h2,
 .h2,
 h3 {
-  font-size: calc(1.725rem + .9vw);
   margin-bottom: 0 !important;
-
-  font-family: "Playfair Display", serif;
+  font-family: "Roboto Slab", serif;
   font-optical-sizing: auto;
-  font-weight: 500;
+  font-weight: 400!important;
   font-style: normal;
 }
-
 
 section {
   padding: 6rem 0px;
 }
 
-main {
-  position: relative;
-  z-index: 2;
-}

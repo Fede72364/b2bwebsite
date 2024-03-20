@@ -12,7 +12,7 @@ const severalResourcesText = () => (
             <li>Instructores en línea.</li>
             <li>Practica entre compañeros para no dañar prospectos reales.</li>
         </ul>
-        <span>Y más...</span>
+        <span className="ms-2">Y más...</span>
     </div>
 )
 

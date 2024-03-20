@@ -1,3 +1,5 @@
+// Components
+import CtaBtn from "../../../components/ctaBtn/CtaBtn"
 // Styles
 const paragraphStyle = 'd-block mb-4'
 
@@ -12,9 +14,8 @@ const Text = () => (
             Nos aseguraremos de que nuestra metodología sea compatible con tu empresa y si podemos ayudarte a cumplir tu objetivo dentro los próximos 30 días, ¡entonces estás dentro! 
         </span>
 
-            <button onClick={()=>{}}>
-                Consulta con un experto
-            </button>
+        
+        <CtaBtn text="Consulta con un experto" />
         
     </>
 )

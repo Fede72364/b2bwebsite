@@ -40,5 +40,9 @@ $blue: #4254bc;
 @media only screen and (min-width:992px) {
     #detail {
         padding: 8rem 0px 5rem 0px;
+
+        .ctaBtnContainer{
+            width: 65%;
+        }
     }
 }

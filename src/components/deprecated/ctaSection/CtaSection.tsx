@@ -24,7 +24,7 @@ const CtaSection = () => (
                 </Col>
                 <Col className="d-flex justify-content-center">
                     <div className="w-50 d-flex justify-content-center">
-                        <CtaBtn text="Click aquí" handleClick={()=>{}} />
+                        <CtaBtn text="Click aquí" />
                     </div>
                 </Col>
             </Row>

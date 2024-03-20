@@ -2,6 +2,7 @@
 import ModalMui from '@mui/material/Modal';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
+import Fade from '@mui/material/Fade';
 // Assets
 import softLogo from '/assets/soft_logo2.png'
 import CtaBtn from '../ctaBtn/CtaBtn';
@@ -31,23 +32,25 @@ const Modal = ({ open, handleClose }: { open: boolean, handleClose: Function }) 
     aria-labelledby={ariaLabel}
     aria-describedby={ariaDescr}
   >
-    <Box sx={muiBoxStyle}>
+    <Fade in={open} timeout={1600}>
+      <Box sx={muiBoxStyle}>
 
-      <img src={softLogo} style={imgStyle} className='my-2' alt="Warning logo" />
+        <img src={softLogo} style={imgStyle} className='my-2' alt="Warning logo" />
 
-      <Typography id="modal-title" variant="h4" className={titleStyle}>
-        Últimos Cupos para el Asesoramiento Gratuito
-      </Typography>
+        <Typography id="modal-title" variant="h4" className={titleStyle}>
+          Últimos Cupos para el Asesoramiento Gratuito
+        </Typography>
 
-      <Typography id="modal-description" variant="h6" sx={{ mt: 2 }} >
-        Si no reservas tu lugar ahora mismo, podrías quedar en lista de espera.
-      </Typography>
+        <Typography id="modal-description" variant="h6" sx={{ mt: 2 }} >
+          Si no reservas tu lugar ahora mismo, podrías quedar en lista de espera.
+        </Typography>
 
-      <div className={btnContainerSt}>
-        <CtaBtn text='Reservar cupo' handleClick={() => { }} />
-      </div>
+        <div className={btnContainerSt}>
+          <CtaBtn text='Reservar cupo' />
+        </div>
 
-    </Box>
+      </Box>
+    </Fade>
   </ModalMui>
 )
 export default Modal

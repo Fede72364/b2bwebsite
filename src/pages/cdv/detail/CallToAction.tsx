@@ -2,7 +2,7 @@
 import { Col, Row } from "react-bootstrap"
 // Components
 import Chevron from "../../../components/chevron/Chevron";
-import { Button } from "@mui/material";
+import CtaBtn from "../../../components/ctaBtn/CtaBtn";
 // Styles
 const rowStyle = "align-items-center py-4 py-lg-0 mt-4 bg-light w-100 blueBorder"
 const spanStyle = "d-block text-center"
@@ -22,9 +22,7 @@ const CallToAction = () => (
         </Col>
 
         <Col xs={12} lg={5} className={ctaStyle}>
-            <Button variant="contained" onClick={() => { }}>
-                Consulta con un experto
-            </Button>
+            <CtaBtn text="Consulta con un experto" />
         </Col>
     </Row>
 

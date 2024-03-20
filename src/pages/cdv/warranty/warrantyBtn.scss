@@ -2,7 +2,8 @@
 
     cursor: pointer;
     color: rgb(255, 255, 255);
-    background: linear-gradient(90deg, rgb(34, 87, 122), rgb(128, 237, 153)) 0% 0% / 300%;
+    background:  linear-gradient(90deg, rgba(34, 87, 122, 1) 7%, rgba(95, 179, 114, 1) 35%, rgba(100, 193, 122, 1) 40%, rgba(95, 179, 114, 1) 44%, rgba(34, 87, 122, 1) 96%) 0% 0% / 500%;
+    animation-duration: 33s;
     border-radius: 30px;
     border: none;
     height: 3em;

@@ -4,12 +4,11 @@ const severalResourcesImg = "/products/notebook.png";
 const severalResourcesText = () => (
     <div className="my-3">
         <ul>
-            <li>Instructores en linea.</li>
+            <li>Instructores en línea.</li>
             <li>Automatizaciones.</li>
             <li>Guía para resolución de todo tipo de objeciones.</li>
             <li>Paquetes de Guiones.</li>
             <li>Clases ultra compactas y concretas.</li>
-            <li>Instructores en línea.</li>
             <li>Practica entre compañeros para no dañar prospectos reales.</li>
         </ul>
         <span className="ms-2">Y más...</span>

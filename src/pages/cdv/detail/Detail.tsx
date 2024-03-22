@@ -20,15 +20,15 @@ const Detail = () => (
       <Container >
         <Row className={rowStyle}>
 
-          <Col xs={12} xxl={9} className={txtStyle}>
+          <Col xs={11} xxl={9} className={txtStyle}>
             <Text />
           </Col>
 
-          <Col xs={12} xxl={9}>
+          <Col xs={11} xxl={9}>
             <CardMapper />
           </Col>
 
-          <Col xs={12} className={ctaStyle}>
+          <Col xs={11} className={ctaStyle}>
             <CallToAction />
           </Col>
 

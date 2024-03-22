@@ -40,7 +40,7 @@ const Purpose = () => {
 
                             <Col xs={12} lg={8} className={txtStyle}>
                                 <h2 className='lh-base'>
-                                    Descubre un Sistema Único, diseñado específicamente para convertir <i>Emprendedores "Amateurs"</i> en <b style={h2spotlightSt}>Empresarios de 6 Cifras.</b>
+                                    Descubre un Sistema Único, diseñado específicamente para convertir <i>Emprendedores "Amateurs"</i> en <b style={h2spotlightSt}>Empresarios 6 Cifras.</b>
                                 </h2>
                             </Col>
 
